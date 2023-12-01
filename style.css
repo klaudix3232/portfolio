@@ -1,0 +1,202 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    /* Viewport height */
+    background-color: #f2f2f2;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    /* Ensures content is aligned vertically */
+    justify-content: center;
+    /* Ensures content is aligned horizontally */
+    max-width: 1200px;
+    /* Maximum width of the container */
+    margin: 0 auto;
+    /* Centers the container */
+}
+
+.text-content {
+    flex: 1;
+    /* Allows the text content to expand and take up available space */
+    padding: 20px;
+    /* Adds padding around the text */
+}
+
+.photo-content {
+    flex: 1;
+    /* Allows the photo content to expand and take up available space */
+    display: flex;
+    justify-content: center;
+    /* Centers the image horizontally */
+}
+
+.photo-content img {
+    max-width: 100%;
+    /* Ensures the image is responsive and fits within its container */
+    height: auto;
+    /* Maintains the aspect ratio of the image */
+}
+
+.button-container {
+    display: flex;
+
+}
+
+.button {}
+
+#button-52 {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#button-52:after {
+    content: "";
+    background-color: white;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+}
+
+#button-52:hover:after {
+    top: 0px;
+    left: 0px;
+}
+
+
+
+@media (min-width: 768px) {
+    #button-52 {
+        padding: 13px 50px 13px;
+    }
+}
+
+#button-52-1 {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+
+}
+
+#button-52-1:after {
+    content: "";
+    background-color: #6769FF;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+}
+
+#button-52-1:hover:after {
+    top: 0px;
+    left: 0px;
+}
+
+
+
+@media (min-width: 768px) {
+    #button-52-1 {
+        padding: 13px 50px 13px;
+    }
+}
+
+
+.icon-container {
+    display: flex;
+    justify-content: end;
+    justify-self: end;
+
+}
+
+.icon-container i {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-direction: row;
+    align-items: baseline;
+
+}
+
+.name {
+    padding: 0px;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 800;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+h1,
+h3 {
+
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+}
+
+h1,
+h2,
+.name,
+p,
+h3 {
+    font-family: "poppins";
+    color: #03045E;
+}
+p{
+    font-weight: 600px;
+}
