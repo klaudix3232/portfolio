@@ -200,3 +200,14 @@ h3 {
 p{
     font-weight: 600px;
 }
+
+/* Responsive behavior */
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+    .container {
+        flex-direction: column;
+    }
+    .pgoto-content {
+        padding-right: 10px;
+        order: -1; /* This moves the image above the text content */
+    }
+}
