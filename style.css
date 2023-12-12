@@ -193,7 +193,8 @@ h1,
 h2,
 .name,
 p,
-h3 {
+h3,
+a {
     font-family: "poppins";
     color: #03045E;
 }
@@ -206,8 +207,13 @@ p{
     .container {
         flex-direction: column;
     }
-    .pgoto-content {
+    .photo-content {
         padding-right: 10px;
         order: -1; /* This moves the image above the text content */
     }
+}
+a {
+    color: inherit; /* or any other color */
+    text-decoration: none; /* or any other value */
+    
 }
